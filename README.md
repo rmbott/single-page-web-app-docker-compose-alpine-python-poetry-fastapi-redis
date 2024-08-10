@@ -8,6 +8,7 @@ Run `poetry init` then run through the dialogue.
 Next, run
 ```shell
 poetry add fastapi
+poetry add uvicorn
 poetry add redis
 poetry shell
 docker-compose up --build
